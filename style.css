@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: rgb(56, 56, 56);
+}
+
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+   min-height: 50px;
+
+}
+
+li .nav-link {
+    text-decoration: none;
+    padding: .5rem;
+    color: inherit;
+}
+
+li .nav-link:hover {
+    text-decoration: underline;
+}
+
+
+
+#logo-e {
+    outline: 1px red solid;
+    border-radius: 50%;
+    padding: .4rem;
+    background-color:grey;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
