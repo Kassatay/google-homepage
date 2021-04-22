@@ -8,8 +8,8 @@ html {
     font-size: 16px;
     font-weight: 400;
     font-family: sans-serif;
-    line-height: 1.6;
-    color: rgb(56, 56, 56);
+    line-height: 2rem;
+    color: rgba(0, 0, 0, .87);
 }
 
 #nav-bar ul {
@@ -17,6 +17,7 @@ html {
     list-style: none;
     justify-content: flex-end;
     align-items: center;
+    margin-right: 2rem;
    min-height: 50px;
 
 }
@@ -41,4 +42,73 @@ li .nav-link:hover {
     text-transform: uppercase;
     color: #000;
     text-decoration: none;
+}
+
+
+.logo-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+   min-height: 200px;
+
+   margin-top: 25%;
+   padding: 2rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+
+}
+
+.form-input {
+    border-radius: 2rem ;
+    width: 70%;
+    height: 3rem;
+    margin-bottom: 5rem;
+    border: 1px solid rgb(194, 194, 194);
+    padding: 0 3rem
+}
+
+.form-input:hover {
+    box-shadow: 00 1px 6px rgb(32 33 36 / 28%);
+   border-color: rgba(223,225,229,0);
+}
+
+.form-input:focus{
+    outline: none;
+}
+
+
+
+.button-container {
+   display: inline-block;
+  position: absolute;
+  margin-top: 3rem;
+  
+}
+
+button {
+    
+    margin: 5px;
+    padding: 0 1rem;
+    background-color: #f8f9fa;
+    border: none;
+    line-height: 2rem;
+    min-height: 2.5rem;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    border: 1px solid #dadada;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 10%);
+}
+
+button:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
 }
