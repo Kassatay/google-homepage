@@ -27,13 +27,18 @@ li:nth-child(3) {
     margin-left: auto;
 }
 
+li span {
+    vertical-align: middle;
+}
+
 
 .nav-bar__item {
     list-style-type: none;
     padding: 0 1rem;
-   
 
 }
+
+
 
 .nav-bar__item a {
     text-decoration: none;
@@ -41,8 +46,21 @@ li:nth-child(3) {
 }
 
 
-button {
-    color: red;
+.nav-bar__item a:hover {
+  text-decoration: underline;
+}
+
+
+.apps-icon {
+    color: rgba(92, 92, 92, 0.87);
+}
+
+.apps-icon:hover {
+    color: inherit;
+}
+
+
+#nav-button {
     padding: .5rem 1rem;
    border: 1px solid #4285f4;
    font-weight: bold;
@@ -52,6 +70,10 @@ button {
    border-radius: 3px;
     
     
+}
+
+#nav-button:hover {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
 }
 
 main {
@@ -72,11 +94,50 @@ main {
 
 .form-content {
     margin-top: 2rem;
-}
-.form-content__box {
-    width: 50%;
-    padding: .5rem;
-    border-radius: 2rem;
    
 }
 
+.form-content__box {
+ min-width: 45rem;
+    padding: 1.2rem 3rem;
+    border-radius: 2rem;
+border: none;
+border:1px solid rgba(196, 196, 196, 0.87);
+   outline: none;
+}
+
+
+
+.icon-positioning {
+   position: absolute;
+  transform: translate(-44rem, 70%);
+  color: rgba(196, 196, 196, 0.87);
+  font-size: 20px;
+}
+
+.button-container {
+    margin-top: 2.5rem;
+    
+   
+  
+}
+
+ .input-button {
+    margin: 0 .5rem;
+    padding: .8rem 1rem;
+   border: none;
+    border-radius: 3px;
+   
+ }
+
+ .input-button:hover {
+     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+     background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+     border: 1px solid rgba(196, 196, 196, 0.87);
+ }
+
+ .input-button a {
+     text-decoration: none;
+     color: rgb(97, 97, 97);
+    
+ }
